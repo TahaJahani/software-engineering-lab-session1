@@ -5,14 +5,36 @@ body {
 
 .calc-body{
     width: 390px;
-    height: 844px;
-    background: #151515;
+    height: 694px;
+    background-color: #151515;
+    color: white;
     border-radius: 40px;
 }
 
 .seperator-line{
     width: 352px;
     height: 0.1px;
-    margin: 322px auto auto auto;
+    margin: 172px auto auto auto;
     border: 1px solid #4E4D4D;
 }
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.btn{
+    width: 66px;
+    height: 66px;
+    margin-top: 25px;
+    background: #343434;
+    border-radius: 9px;
+    
+}
+
+.btn:hover {
+    background-color: #555555;
+  }
