@@ -14,7 +14,7 @@ body {
 .seperator-line{
     width: 352px;
     height: 0.1px;
-    margin: 172px auto auto auto;
+    /* margin: 172px auto auto auto; */
     border: 1px solid #4E4D4D;
 }
 
@@ -45,6 +45,10 @@ body {
     color: #66FF7F;
 }
 
+.action-btn:hover{
+    color: #66FF7F;
+}
+
 .back-btn{
     color: #FF5959;
 }
@@ -69,4 +73,16 @@ body {
 .eq-btn:hover{
     background-color: #7dff93;
     color: #343434;
+}
+
+.calc-result{
+    height: 80px;
+    background-color: grey;
+    text-align: left;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 90%;
+    vertical-align: middle;
+    margin: 50px auto 50px auto;
+    resize: none;
 }
