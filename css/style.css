@@ -14,7 +14,8 @@ body {
 .seperator-line{
     width: 352px;
     height: 0.1px;
-    /* margin: 172px auto auto auto; */
+    margin: auto;
+    margin-bottom: 20px;
     border: 1px solid #4E4D4D;
 }
 
@@ -75,9 +76,16 @@ body {
     color: #343434;
 }
 
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('../src/static/digital-numbers-cufonfonts-webfont/DigitalNumbers-Regular.woff') format('woff');
+}
+
 .calc-result{
     height: 80px;
-    background-color: grey;
+    background-color: #1aa260;
     text-align: left;
     border-radius: 10px;
     color: whitesmoke;
@@ -85,4 +93,5 @@ body {
     vertical-align: middle;
     margin: 50px auto 50px auto;
     resize: none;
+    font-family: 'Digital Numbers Regular';
 }
