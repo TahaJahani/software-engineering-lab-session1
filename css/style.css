@@ -32,9 +32,41 @@ body {
     margin-top: 25px;
     background: #343434;
     border-radius: 9px;
-    
+    font-size: 22px;
+    color: white;
+    text-align: center;
 }
 
 .btn:hover {
     background-color: #555555;
-  }
+}
+
+.action-btn{
+    color: #66FF7F;
+}
+
+.back-btn{
+    color: #FF5959;
+}
+
+.back-btn:hover{
+    color: #FF5959;
+}
+
+.clear-btn{
+    background-color: #FF5959;
+}
+
+.clear-btn:hover{
+    background-color: #fb6b6b;
+}
+
+.eq-btn{
+    background-color: #59ff74;
+    color: #343434;
+}
+
+.eq-btn:hover{
+    background-color: #7dff93;
+    color: #343434;
+}
