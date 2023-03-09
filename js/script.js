@@ -24,7 +24,7 @@ const buttonClicked = (text) => {
 
 const clearText = () => {
     const outputTextArea = document.getElementById("calc-result")
-    outputTextArea.textContent = ""
+    outputTextArea.textContent = "0"
 }
 
 const deleteLastChar = () => {
