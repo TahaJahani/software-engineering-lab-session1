@@ -19,3 +19,9 @@ const clearText = () => {
     const outputTextArea = document.getElementById("calc-result")
     outputTextArea.textContent = ""
 }
+
+const deleteLastChar = () => {
+    const outputTextArea = document.getElementById("calc-result")
+    const text = outputTextArea.textContent
+    outputTextArea.textContent = text.substring(0, text.length - 1)
+}
