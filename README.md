@@ -103,6 +103,13 @@
 
 <img width="1320" alt="git_checkout" src="./img/git_checkout.png">
 
+در نهایت با استفاده از ایجاد یک pull request شاخه‌ی dev را با شاخه‌ی master مرج می‌کنیم.
+
+<img width="1320" alt="pull_request" src="./img/pull_request.png">
+
+برنچ مستر پس از پذیرش pull request ایجاد شده:
+<img width="1320" alt="master_branch" src="./img/master_branch.png">
+
 
 ---
 
