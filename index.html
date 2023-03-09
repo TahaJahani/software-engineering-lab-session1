@@ -21,18 +21,20 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="./js/script.js"></script>
   </head>
   <body>
     <!-- Start your project here-->
     <div class="container-md text-center calc-body">
-      <textarea disabled type="text" id="fname" name="fname" class="calc-result">123121912.9237218913</textarea>
+      <textarea disabled type="text" id="calc-result" name="fname" class="calc-result">123121912.9237218913</textarea>
       <div class="seperator-line"></div>
       <div class="grid-container">
         <button class="btn clear-btn">C</button>
         <button class="btn action-btn">()</button>
         <button class="btn action-btn">%</button>
         <button class="btn action-btn">/</button>
-        <button class="btn">7</button>
+        <button class="btn" onclick="buttonClicked('7')">7</button>
         <button class="btn">8</button>
         <button class="btn">9</button>
         <button class="btn action-btn">⨉</button>
