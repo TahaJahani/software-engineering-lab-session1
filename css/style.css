@@ -93,5 +93,6 @@ body {
     vertical-align: middle;
     margin: 50px auto 50px auto;
     resize: none;
-    font-family: 'Digital Numbers Regular';
+    font-family: 'Sans serif';
+    font-size: 20px;
 }
