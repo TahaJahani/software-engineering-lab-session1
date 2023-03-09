@@ -14,3 +14,8 @@ const buttonClicked = (text) => {
     }
     outputTextArea.textContent += text
 }
+
+const clearText = () => {
+    const outputTextArea = document.getElementById("calc-result")
+    outputTextArea.textContent = ""
+}
