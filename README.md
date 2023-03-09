@@ -42,7 +42,9 @@
 <img width="1320" alt="merge_conflict_1" src="./img/merge_conflict_1.png">
 
 
-<img width="1320" alt="merge_conflict_2" src="./img/merge_conflict_2.png">
+<img width="1320" alt="merge_conflict_2_1" src="./img/merge_conflict_2_1.png">
+
+<img width="1320" alt="merge_conflict_2_2" src="./img/merge_conflict_2_2.png">
 
 
 در نهایت خروجی پروژه‌ی ما در شکل زیر آمده است:
@@ -58,6 +60,12 @@
 - استفاده از دستور `git status`:
 
 <img width="1320" alt="git_status" src="./img/git_status.png">
+
+
+- استفاده از دستور `git config`:
+
+<img width="1320" alt="git_config" src="./img/git_config.png">
+
 
 - استفاده از دستور `git add`:
 
