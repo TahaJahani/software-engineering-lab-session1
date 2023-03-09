@@ -11,6 +11,9 @@ const isNumeric = (char) => {
 
 const buttonClicked = (text) => {
     const outputTextArea = document.getElementById("calc-result")
+    if (outputTextArea.textContent === "0") {
+        outputTextArea.textContent = ""
+    }
     const textContent = outputTextArea.textContent
     const lastChar = textContent.charAt(textContent.length - 1)
     if (isOperator(text) && (isOperator(lastChar) || lastChar === '(')) {
@@ -35,6 +38,9 @@ const deleteLastChar = () => {
 
 const insertParenthesis = () => {
     const outputTextArea = document.getElementById("calc-result")
+    if (outputTextArea.textContent === "0") {
+        outputTextArea.textContent = ""
+    }
     const text = outputTextArea.textContent
     const lastChar = text.charAt(text.length - 1)
     const closed = (text.split(")")).length ?? 0
@@ -48,4 +54,10 @@ const insertParenthesis = () => {
     } else {
         outputTextArea.textContent += "("
     }
+}
+
+const findResult = () => {
+    const outputTextArea = document.getElementById("calc-result")
+    const result = eval(outputTextArea.textContent)
+    outputTextArea.textContent = result
 }
