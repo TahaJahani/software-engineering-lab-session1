@@ -5,6 +5,10 @@ const isOperator = (char) => {
     return operators.includes(char)
 }
 
+const isNumeric = (char) => {
+    return /^-?\d+$/.test(value);
+}
+
 const buttonClicked = (text) => {
     const outputTextArea = document.getElementById("calc-result")
     const textContent = outputTextArea.textContent
