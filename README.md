@@ -2,9 +2,10 @@
 
   | `Person Number` | `First Name` | `Last Name` | `Student Number` |
   |:---------------:|:------------:|:-----------:|:----------------:|
-  | `First Person` | Moahmmad Taha | Jahani Nezhad | 98101363  |
+  | `First Person` | Moahmmad Taha | Jahani-Nezhad | 98101363  |
   | `Second Person` | Iman | Alipour | 98102024 |
   
+---
   
   # مراحل انجام آزمایش
 برای انجام این آزمایش، پروژه‌ی انتخابی ما یک ماشین‌حساب ساده تحت وب می‌باشد. برای انجام این پروژه صرفا از html و css و javascript خام استفاده می‌کنیم.
@@ -98,7 +99,7 @@
 <img width="1320" alt="git_checkout" src="./img/git_checkout.png">
 
 
-
+---
 
 
   # پرسش‌ها
