@@ -92,6 +92,9 @@
 <img width="1320" alt="git_diff" src="./img/git_diff.png">
 
 
+- استفاده از دستور `git fetch`:
+
+<img width="1320" alt="git_fetch" src="./img/git_fetch.png">
 
 
 - استفاده از دستور `git checkout`:
