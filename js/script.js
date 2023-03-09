@@ -6,7 +6,7 @@ const isOperator = (char) => {
 }
 
 const isNumeric = (char) => {
-    return /^-?\d+$/.test(value);
+    return /^-?\d+$/.test(char);
 }
 
 const buttonClicked = (text) => {
@@ -28,4 +28,21 @@ const deleteLastChar = () => {
     const outputTextArea = document.getElementById("calc-result")
     const text = outputTextArea.textContent
     outputTextArea.textContent = text.substring(0, text.length - 1)
+}
+
+const insertParenthesis = () => {
+    const outputTextArea = document.getElementById("calc-result")
+    const text = outputTextArea.textContent
+    const lastChar = text.charAt(text.length - 1)
+    const closed = (text.split(")")).length ?? 0
+    const opened = (text.split("(")).length ?? 0
+    if (isNumeric(lastChar) || lastChar === ')' || lastChar === '(') {
+        if (closed < opened) {
+            outputTextArea.textContent += ")"
+        } else {
+            outputTextArea.textContent += "*("
+        }
+    } else {
+        outputTextArea.textContent += "("
+    }
 }
