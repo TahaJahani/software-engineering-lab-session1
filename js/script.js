@@ -31,6 +31,9 @@ const deleteLastChar = () => {
     const outputTextArea = document.getElementById("calc-result")
     const text = outputTextArea.textContent
     outputTextArea.textContent = text.substring(0, text.length - 1)
+    if (outputTextArea.textContent.length === 0) {
+        outputTextArea.textContent = "0"
+    }
 }
 
 const insertParenthesis = () => {
