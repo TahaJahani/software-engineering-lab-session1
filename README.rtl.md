@@ -17,6 +17,90 @@
 .Rhistory
 ``` 
 
+همچنین برای انجام این پروژه کامیت‌های زیر را انجام دادیم:
+
+<img width="1320" alt="commits" src="./img/commits.png">
+
+برای develope کردن این پروژه از سه برنچ استفاده کردیم که در ادامه مشاهده می‌کنید:
+<img width="1320" alt="branches" src="./img/branches.png">
+
+برنچ master برنچ اصلی ماست که همانطور که مشاهده می‌کنید یک برنچ محافظت شده است، همچنین از برنچ dev برای انجام برنامه‌نویسی و از برنچ hotfix برای انجام برخی از عملیات‌های debugging استفاده می‌کنیم.
+
+همچنین همانطور که پیش‌تر گفتیم شاخه‌ی master را محافظت کرده‌ایم تا امکان مرج کردن مستقیم با آن وجود نداشته باشد و صرفا از طریق ایجاد pull request این امکان وجود داشته باشد:
+
+<img width="1320" alt="protected_master" src="./img/protected_master.png">
+
+یک نمونه از اجرای pull کردن و در نتیجه‌ی آن ادغام کردن (merge) با استفاده از command line  در ادامه آمده است:
+
+
+<img width="1320" alt="merge_sample" src="./img/merge_sample.png">
+
+همچنین تصویرهای زیر نتیجه‌ی برطرف کردن دو conflict متفاوت است که در command line برطرف شده‌اند.
+
+
+<img width="1320" alt="merge_conflict_1" src="./img/merge_conflict_1.png">
+
+
+<img width="1320" alt="merge_conflict_2" src="./img/merge_conflict_2.png">
+
+
+در نهایت خروجی پروژه‌ی ما در شکل زیر آمده است:
+
+
+<img width="1320" alt="result" src="./img/result.png">
+
+
+برای پیاده‌سازی این ماشین‌حساب ساده ابتدا بخش طراحی را با استفاده از html و css انجام دادیم و سپس بخش منطق ان را با استفاده از javaScript در برنچ dev ایجاد کردیم. همچنین در ادامه در برنچ hotfix انواع اصلاحات خاص مانند اینکه نتوان در یک عدد بیش از یک علامت ممیز استفاده کرد یا نحوه‌ی پرانتز گذاری درست و همچنین اعمال محدودیت عدم امکان قرار داردن operatorهای پشت سر هم را اعمال کردیم.
+
+در ادامه می‌توانید خروجی برخی از دستورات گیت که در هنگام انجام پروژه استفاده کردیم را مشاهده کنید.
+
+- استفاده از دستور `git status`:
+
+<img width="1320" alt="git_status" src="./img/git_status.png">
+
+- استفاده از دستور `git add`:
+
+<img width="1320" alt="git_add" src="./img/git_add.png">
+
+- استفاده از دستور `git commit`:
+
+<img width="1320" alt="git_commit" src="./img/git_commit.png">
+
+- استفاده از دستور `git pull`:
+
+<img width="1320" alt="git_pull" src="./img/git_pull.png">
+
+
+- استفاده از دستور `git push`:
+
+<img width="1320" alt="git_push" src="./img/git_push.png">
+
+
+- استفاده از دستور `git branch`:
+
+<img width="1320" alt="git_branch" src="./img/git_branch.png">
+
+
+- استفاده از دستور `git log`:
+
+<img width="1320" alt="git_log" src="./img/git_log.png">
+
+
+- استفاده از دستور `git diff`:
+
+<img width="1320" alt="git_diff" src="./img/git_diff.png">
+
+
+
+
+- استفاده از دستور `git checkout`:
+
+<img width="1320" alt="git_checkout" src="./img/git_checkout.png">
+
+
+
+
+
   # پرسش‌ها
 
   ## پرسش ۱: پوشه‌ی .git چیست؟ چه اطلاعاتی در آن ذخیره می‌شود؟ با چه دستوری ساخته می‌شود؟
