@@ -61,12 +61,6 @@
 
 <img width="1320" alt="git_status" src="./img/git_status.png">
 
-
-- استفاده از دستور `git config`:
-
-<img width="1320" alt="git_config" src="./img/git_config.png">
-
-
 - استفاده از دستور `git add`:
 
 <img width="1320" alt="git_add" src="./img/git_add.png">
